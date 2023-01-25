@@ -4,8 +4,7 @@ const { Configuration, OpenAIApi } = require('openai');
 // 質問： quetion
 // 答え： answer
 
-// const apiKey = 'YOUR_API_KEY';
-
+const apiKey = 'YOUR_API_KEY';
 const configuration = new Configuration({
   apiKey: apiKey,
 });
